@@ -8,14 +8,13 @@
 * - yui.yahooapis.com/2.8.1/build/base/base.css
 * - camendesign.com/design/
 * - praegnanz.de/weblog/htmlcssjs-kickstart
- 
+
 *
 * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
 * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
-* html5doctor.com/html-5-reset-stylesheet/
- 
+* html5doctor.com/html-5-reset-stylesheet
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video*/
-#INVALID-RULE
+HTML, BODY, DIV, SPAN, OBJECT, IFRAME, H1, H2, H3, H4, H5, H6, P, BLOCKQUOTE, PRE, ABBR, ADDRESS, CITE, CODE, DEL, DFN, EM, IMG, INS, KBD, Q, SAMP, SMALL, STRONG, SUB, SUP, VAR, B, I, DL, DT, DD, OL, UL, LI, FIELDSET, FORM, LABEL, LEGEND, TABLE, CAPTION, TBODY, TFOOT, THEAD, TR, TH, TD, ARTICLE, ASIDE, CANVAS, FIGCAPTION, FIGURE, FOOTER, HEADER, HGROUP, MENU, NAV, SECTION, TIME, MARK, AUDIO, VIDEO
 {
 	margin: 0;
 	padding: 0;
@@ -98,7 +97,7 @@ PRE, CODE, KBD, SAMP
 }
 /**
 * Minimal base styles.
- 
+
 Always force a scrollbar in non-IE*/
 HTML
 {
@@ -271,7 +270,7 @@ A:hover
 * Primary styles
 *
 * Author:
- 
+
 Global Styles*/
 BODY
 {
@@ -281,22 +280,37 @@ BODY
 P
 {
 	margin-bottom: 10px;
+	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif,", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+	font-size: 1.2em;
+	color: #666;
 }
 H1
 {
-	margin-bottom: 20px;
-	font-size: 2.1em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 3em;
+	text-decoration: none;
+	/*[empty]color:;*/
+	text-shadow: 1px 3px 1px #B7B7B7;
 }
 H2
 {
+	margin-top: 20px;
 	margin-bottom: 10px;
-	margin-top: 10px;
-	font-size: 1.8em;
+	font-size: 2.4em;
 }
 H3
 {
-	font-size: 1.5em;
+	font-size: 1.8em;
 	margin-bottom: 10px;
+}
+H4
+{
+	font-size: 1.5em;
+}
+.italics
+{
+	font-style: italic;
 }
 #container
 {
@@ -314,6 +328,60 @@ HEADER IMG
 /*Main*/
 #main
 {
+}
+.our-difference
+{
+}
+/*Selling Points*/
+.our-difference
+{
+	margin-bottom: 20px;
+}
+.our-difference H4
+{
+	margin-bottom: 10px;
+}
+.our-difference IMG
+{
+	float: left;
+}
+.role
+{
+	background: #FFF;
+	display: inline;
+	width: 440px;
+	height: 100px;
+	float: left;
+	padding: 20px 10px;
+	margin-bottom: 40px;
+	text-align: center;
+	border: 1px solid #D7D7D7;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 2px 1px #ccc;
+	-moz-box-shadow: 1px 2px 1px #ccc;
+	box-shadow: 1px 2px 1px #CCC;
+}
+.role H4
+{
+	color: #00A6CB;
+}
+.role:hover
+{
+	background: #00A6CB;
+	color: #FFF;
+}
+.role:hover H4
+{
+	color: #FFF;
+}
+.role:hover P
+{
+	color: #FFF;
+}
+.second
+{
+	margin-left: 20px;
 }
 /*Experiments
 CSS3 Buttons*/
@@ -405,7 +473,7 @@ A.css3-button-blue:active
 }
 /**
 * Non-semantic helper classes: please define your styles before this section.
- 
+
 For image replacement*/
 .ir
 {
@@ -439,7 +507,7 @@ www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden*/
 /*Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638*/
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus
 {
-	clip: rect(auto auto auto auto);
+	clip: rect(auto, auto, auto, auto);
 	height: auto;
 	margin: 0;
 	overflow: visible;
@@ -473,7 +541,7 @@ j.mp/bestclearfix*/
 * Media queries for responsive design.
 *
 * These follow after primary styles so they will successfully override.
- 
+
 Style adjustments for portrait mode goes here
 Style adjustments for landscape mode goes here
 Grade-A Mobile Browsers (Opera Mobile, Mobile Safari, Android Chrome)

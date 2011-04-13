@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5f9a21-e9f4-4f2d-a7e3-65c935135d42" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FEDesignerJD.html" />
       <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\RecruitmentMinisite\home.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\RecruitmentMinisite\test.scss" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="RecruitmentMinisite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +31,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" showNonProject="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="38" selection-start="1437" selection-end="1934" vertical-scroll-proportion="0.5600907">
+            <state line="96" column="69" selection-start="3892" selection-end="3892" vertical-scroll-proportion="-27.692308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FEDesignerJD.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FEDesignerJD.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,10 +174,15 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Prashant\Documents\India\Design\RecruitmentMinisite" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -251,14 +268,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="40" selection-end="40" vertical-scroll-proportion="-2.796648">
+        <state line="360" column="2" selection-start="6843" selection-end="6843" vertical-scroll-proportion="0.5441341">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="38" selection-start="1437" selection-end="1934" vertical-scroll-proportion="0.5600907">
+        <state line="96" column="69" selection-start="3892" selection-end="3892" vertical-scroll-proportion="-27.692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FEDesignerJD.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
