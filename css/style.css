@@ -302,23 +302,18 @@ H3
 {
 	margin: 0 auto;
 	width: 960px;
+	padding: 10px;
 }
 /*Header*/
 HEADER
 {
-	padding: 10px;
 }
 HEADER IMG
 {
-	margin-bottom: 20px;
-	display: block;
 }
 /*Main*/
 #main
 {
-	padding: 10px;
-	border: 1px solid #ECECEC;
-	margin-right: 10px;
 }
 /*Experiments
 CSS3 Buttons*/
